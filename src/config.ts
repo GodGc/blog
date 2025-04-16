@@ -4,17 +4,17 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'Retypeset',
+    title: 'Think',
     // site subtitle
-    subtitle: 'Revive the beauty of typography',
+    subtitle: 'life, work, and technology',
     // site description
-    description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
+    description: 'Here is a the blog to share my thoughts and ideas. Including my thoughts on life, work, and technology.',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
-    i18nTitle: true, // true, false
+    i18nTitle: false, // true, false
     // author name
-    author: 'radishzz',
+    author: 'GG',
     // site url
-    url: 'https://retypeset.radishzz.cc',
+    url: 'https://think.godgc.com',
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icon/favicon.svg', // or https://example.com/favicon.svg
@@ -56,7 +56,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'zh', // zh, zh-tw, ja, en, es, ru
     // more languages
     // not fill in the locale code above again
-    moreLocales: ['zh-tw', 'ja', 'en', 'es', 'ru'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
+    moreLocales: [], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts
@@ -95,18 +95,18 @@ export const themeConfig: ThemeConfig = {
   // SEO SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   seo: {
     // @twitter ID
-    twitterID: '@radishzz_',
+    // twitterID: '@radishzz_',
     // site verification
     verification: {
       // google search console
       // https://search.google.com/search-console
-      google: 'AUCrz5F1e5qbnmKKDXl2Sf8u6y0kOpEO1wLs6HMMmlM',
+      // google: 'AUCrz5F1e5qbnmKKDXl2Sf8u6y0kOpEO1wLs6HMMmlM',
       // bing webmaster tools
       // https://www.bing.com/webmasters
-      bing: '64708CD514011A7965C84DDE1D169F87',
+      // bing: '64708CD514011A7965C84DDE1D169F87',
       // yandex webmaster
       // https://webmaster.yandex.com
-      yandex: '',
+      // yandex: '',
       // baidu search
       // https://ziyuan.baidu.com
       baidu: '',
@@ -116,19 +116,19 @@ export const themeConfig: ThemeConfig = {
     googleAnalyticsID: '',
     // umami analytics
     // https://cloud.umami.is
-    umamiAnalyticsID: '520af332-bfb7-4e7c-9386-5f273ee3d697',
+    // umamiAnalyticsID: '520af332-bfb7-4e7c-9386-5f273ee3d697',
     // follow verification
     // https://follow.is/
     follow: {
       // feed ID
-      feedID: '',
+      // feedID: '',
       // user ID
-      userID: '',
+      // userID: '',
     },
     // apiflash access key
     // automatically generate website screenshots for open graph images
     // get your access key at: https://apiflash.com/
-    apiflashKey: '',
+    // apiflashKey: '',
   },
   // SEO SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
@@ -142,19 +142,19 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/radishzzz/astro-theme-retypeset',
+        url: 'https://github.com/godgc',
       },
-      {
-        name: 'Twitter',
-        url: 'https://x.com/radishzz_',
-      },
+      // {
+      //   name: 'Twitter',
+      //   url: 'https://x.com/radishzz_',
+      // },
       // {
       //   name: 'Email',
       //   url: 'https://example@gmail.com',
       // }
     ],
     // year of website start
-    startYear: 2024,
+    startYear: 2025,
   },
   // FOOTER SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
