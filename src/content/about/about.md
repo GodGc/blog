@@ -22,11 +22,9 @@ lang: zh
 
 这才是真正的重点。
 
+![](../../assets/imgs/avatar.png)
+
 ### 关于我
-
-<!-- ![](../../assets/imgs/avatar.png = 100x20) -->
-
-<img src="assets/imgs/avatar.png" width="200px" height="200px" >
 
 我是一名前端开发工程师，我的名字并不重要，重要的是我在创造和分享什么。
 
