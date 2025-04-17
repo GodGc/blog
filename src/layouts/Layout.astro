@@ -8,6 +8,7 @@ import Scrollbar from '@/components/Widgets/Scrollbar.astro'
 import themeConfig from '@/config'
 import Head from '@/layouts/Head.astro'
 import { getPageInfo } from '@/utils/page'
+import Analytics from '@vercel/analytics/astro'
 import '@/styles/font.css'
 import '@/styles/global.css'
 import '@/styles/heti.css'
@@ -50,5 +51,6 @@ const MarginBottom = isPost && themeConfig.comment?.enabled
     <Scrollbar />
     <Button supportedLangs={supportedLangs} />
     <PhotoSwipe />
+    <Analytics />
   </body>
 </html>
