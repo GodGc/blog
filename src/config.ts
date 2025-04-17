@@ -14,7 +14,7 @@ export const themeConfig: ThemeConfig = {
     // author name
     author: 'GG',
     // site url
-    url: 'https://think.godgc.com',
+    url: 'https://th1nk.vercel.app',
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icon/favicon.svg', // or https://example.com/favicon.svg
