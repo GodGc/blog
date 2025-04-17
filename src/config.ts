@@ -4,11 +4,11 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'Think',
+    title: '想法',
     // site subtitle
-    subtitle: 'life, work, and technology',
+    subtitle: '生活, 工作, 技术',
     // site description
-    description: 'Here is a the blog to share my thoughts and ideas. Including my thoughts on life, work, and technology.',
+    description: '分享生活, 工作, 技术的博客。前端 | AI | 技术 | 分享',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: false, // true, false
     // author name
